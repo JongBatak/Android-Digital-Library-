@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF5722</color>
+    <color name="red">#FB3232</color>
+    <color name="purple">#6A1B9A</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#1AFF00</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="colorChipBackground">#FFCC80</color> <!-- Light orange for chip background -->
+    <color name="hint_gray">#99000000</color>
+    <color name="nav_icon_orange">#FF8A2A</color>
+    <color name="nav_icon_blue">#2B7BFF</color>
+    <color name="nav_icon_purple">#8F35FF</color>
+    <color name="profile_header_start">#FF7B1FA2</color>
+    <color name="profile_header_end">#FFFF7043</color>
+    <color name="profile_stat_blue">#1C58FF</color>
+    <color name="profile_stat_orange">#FF5B19</color>
+    <color name="profile_stat_purple">#7931FF</color>
+    <color name="profile_streak_start">#FE8A3B</color>
+    <color name="profile_streak_end">#FD4A84</color>
+    <color name="profile_card_border">#1A000000</color>
+</resources>

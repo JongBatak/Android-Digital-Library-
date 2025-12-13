@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Perpustakaan Offline</string>
+    <string name="book_title_sample">Bumi Manusia</string>
+    <string name="book_author_sample">Pramoedya Ananta Toer</string>
+    <string name="book_content_sample">Nama saya Minke. Orang biasa memanggil saya Nyo...</string>
+    <string name="book_chip_description">Roman pertama dari Tetralogi Buru yang mengisahkan Minke.</string>
+    <string name="toolbar_zoom_label">Ukuran teks</string>
+    <string name="content_desc_book_icon">Book icon</string>
+    <string name="content_desc_zoom_out">Zoom out</string>
+    <string name="content_desc_zoom_in">Zoom in</string>
+    <string name="content_desc_cover">Book cover</string>
+    <string name="label_gender">Gender</string>
+    <string name="option_male">Laki-laki</string>
+    <string name="option_female">Perempuan</string>
+    <string name="hint_full_name">Nama Lengkap</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_class">Kelas</string>
+    <string name="action_register">REGISTER</string>
+    <string name="action_login">LOGIN</string>
+    <string name="label_add_user">Tambah User</string>
+    <string name="label_export">Export</string>
+
+    <!-- Admin stats strings -->
+    <string name="admin_stats_chart_title">Grafik Pembacaan Buku</string>
+    <string name="admin_stats_pie_title">Kategori Buku Terpopuler</string>
+    <string name="admin_stats_top_books_title">Top 6 Buku Paling Banyak Dibaca</string>
+    <string name="content_desc_chart">Grafik</string>
+
+    <!-- Auth strings -->
+    <string name="label_register">Daftar Akun</string>
+    <string name="label_login">Masuk</string>
+    <string name="text_have_account">Sudah punya akun? Masuk</string>
+    <string name="text_no_account">Belum punya akun? Daftar</string>
+    <string name="welcome_message">Selamat datang, %1$s!</string>
+
+    <!-- User dashboard stats strings -->
+    <string name="stat_books_read">Buku Dibaca</string>
+    <string name="stat_books_downloaded">Buku Diunduh</string>
+    <string name="stat_favorite_genre">Genre Favorit</string>
+    <string name="stat_reading_time_label">Waktu Baca</string>
+    <string name="stat_hour_minute_value">%1$d jam %2$d menit</string>
+    <string name="stat_minute_value">%1$d menit</string>
+
+    <!-- Admin dashboard labels -->
+    <string name="stat_total_books">Total Buku</string>
+    <string name="stat_total_users">Total User</string>
+    <string name="stat_total_reads">Total Dibaca</string>
+    <string name="nav_manage_books_title">Kelola Buku</string>
+    <string name="nav_manage_books_desc">Tambah, edit, dan hapus buku</string>
+    <string name="nav_manage_users_title">Kelola User</string>
+    <string name="nav_manage_users_desc">Lihat daftar user terdaftar</string>
+    <string name="nav_stats_title">Statistik Pembacaan</string>
+    <string name="nav_stats_desc">Lihat buku paling banyak dibaca</string>
+
+    <!-- Profile screen strings -->
+    <string name="profile_gold_badge">Gold Reader</string>
+    <string name="profile_books_read">Buku Dibaca</string>
+    <string name="profile_day_streak">Hari Streak</string>
+    <string name="profile_rating_avg">Rating Avg</string>
+    <string name="profile_streak_title">Reading Streak</string>
+    <string name="profile_streak_status_active">Aktif</string>
+    <string name="profile_streak_days">%1$d Hari Berturut-turut</string>
+    <string name="profile_streak_hint">Baca setiap hari untuk mempertahankan streak!</string>
+    <string name="profile_label_full_name">Nama Lengkap</string>
+    <string name="profile_label_username">Username</string>
+    <string name="profile_label_class">Kelas</string>
+    <string name="profile_label_gender">Gender</string>
+    <string name="profile_label_joined">Bergabung Sejak</string>
+    <string name="profile_logout">Keluar dari Akun</string>
+</resources>

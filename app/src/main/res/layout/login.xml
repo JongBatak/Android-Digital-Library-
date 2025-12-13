@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_root"
+    android:background="@drawable/bg_wave_motion"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@drawable/box_blue"
+        android:elevation="6dp">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="226dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_username"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_gray"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_gray"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="72dp"
+            android:paddingVertical="18dp"
+            android:text="@string/action_login"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:elevation="4dp"
+            android:background="@drawable/btn_orange"
+            android:foreground="@drawable/ripple_btn_orange"
+            android:backgroundTint="@color/orange"
+            style="@style/Widget.MaterialComponents.Button"
+            app:cornerRadius="28dp"
+            app:strokeWidth="0dp"
+            app:backgroundTint="@color/orange"/>
+
+        <TextView
+            android:id="@+id/tvNoAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_no_account"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

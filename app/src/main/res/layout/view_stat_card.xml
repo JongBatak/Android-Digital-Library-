@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="6dp"
+    android:foreground="@drawable/ripple_btn_orange"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/stat_card_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="120dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="@drawable/bg_stat_card">
+
+        <ImageView
+            android:id="@+id/iv_stat_icon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_book_icon"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_stat_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="12"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_stat_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Buku Dibaca"
+            android:textColor="#F0FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

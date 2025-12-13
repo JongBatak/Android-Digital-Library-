@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple placeholder vector drawable for charts -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="120dp"
+    android:viewportWidth="200"
+    android:viewportHeight="120">
+
+    <!-- background rounded rect -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M6,6 h188 a6,6 0 0 1 6,6 v96 a6,6 0 0 1 -6,6 h-188 a6,6 0 0 1 -6,-6 v-96 a6,6 0 0 1 6,-6 z" />
+
+    <!-- light grid lines -->
+    <group android:translateY="12">
+        <path android:strokeColor="#22000000" android:strokeWidth="1"
+            android:pathData="M12,8 h176" />
+        <path android:strokeColor="#11000000" android:strokeWidth="1"
+            android:pathData="M12,40 h176" />
+        <path android:strokeColor="#11000000" android:strokeWidth="1"
+            android:pathData="M12,72 h176" />
+        <path android:strokeColor="#11000000" android:strokeWidth="1"
+            android:pathData="M12,104 h176" />
+    </group>
+
+    <!-- bar chart bars -->
+    <path android:fillColor="#FF4CAF50" android:pathData="M28,92 h28 v-40 h-28 z" />
+    <path android:fillColor="#FF2196F3" android:pathData="M68,92 h28 v-60 h-28 z" />
+    <path android:fillColor="#FFFFC107" android:pathData="M108,92 h28 v-30 h-28 z" />
+
+    <!-- small pie placeholder (circle with wedge) -->
+    <group android:translateX="156" android:translateY="34" android:scaleX="0.85" android:scaleY="0.85">
+        <path android:fillColor="#FF9E9E9E" android:pathData="M24,0 A24,24 0 1,0 24,48 A24,24 0 1,0 24,0 z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M24,24 L24,0 A12,12 0 0,1 36,24 z" />
+    </group>
+
+    <!-- subtle border -->
+    <path android:fillColor="@android:color/transparent" android:strokeColor="#22000000" android:strokeWidth="1"
+        android:pathData="M6,6 h188 a6,6 0 0 1 6,6 v96 a6,6 0 0 1 -6,6 h-188 a6,6 0 0 1 -6,-6 v-96 a6,6 0 0 1 6,-6 z" />
+</vector>
+
