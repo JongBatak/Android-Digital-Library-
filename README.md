@@ -1,4 +1,4 @@
-![Now in Android](docs/images/nia-splash.jpg "Now in Android")
+![Now in Android](app/src/main/assets/ScreenShots/nia-splash.jpg "Now in Android")
 
 <a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a>
 
@@ -26,7 +26,7 @@ in, and be notified when new content is published which matches interests they a
 
 ## Screenshots
 
-![Screenshot showing For You screen, Interests screen and Topic detail screen](docs/images/screenshots.png "Screenshot showing For You screen, Interests screen and Topic detail screen")
+![Screenshot showing For You screen, Interests screen and Topic detail screen](app/src/main/assets/ScreenShots/screenshots.png "Screenshot showing For You screen, Interests screen and Topic detail screen")
 
 # Development Environment
 
