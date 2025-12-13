@@ -1,121 +1,207 @@
-# Jetpack Compose Samples
-<img src="readme/samples_montage.gif" alt="Jetpack Compose Samples" width="824" />
+![Now in Android](docs/images/nia-splash.jpg "Now in Android")
 
-This repository contains a set of individual Android Studio projects to help you learn about
-Compose in Android. Each sample demonstrates different use cases, complexity levels and APIs.
+<a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a>
 
-For more information, please [read the documentation](https://developer.android.com/jetpack/compose).
+Now in Android App
+==================
 
-💻 Requirements
-------------
-To try out these sample apps, you need to use [Android Studio](https://developer.android.com/studio).
-You can clone this repository or import the
-project from Android Studio following the steps
-[here](https://developer.android.com/jetpack/compose/setup#sample).
+**Learn how this app was designed and built in the [design case study](https://goo.gle/nia-figma), [architecture learning journey](docs/ArchitectureLearningJourney.md) and [modularization learning journey](docs/ModularizationLearningJourney.md).**
 
-🧬 Samples
-------------
+This is the repository for the [Now in Android](https://developer.android.com/series/now-in-android)
+app. It is a **work in progress** 🚧.
 
-| Project | |
-|:-----|---------|
-|  <br><img src="readme/jetnews.png" alt="JetNews" width="240"></img> <br><br> A sample blog post viewer that demonstrates the use of Compose with a typical Material app and real-world architecture. <br><br> • Medium complexity<br>• Varied UI<br>• Light & dark themes<br>• Resource loading<br>• UI Testing <br><br> **[> Browse](JetNews/)**<br><br> | <img src="readme/screenshots/JetNews.png" width="320" alt="Jetnews sample demo"> |
-|  |  |
-|  <br><img src="readme/jetchat.png" alt="Jetchat" width="240"></img> <br><br>A sample chat app that focuses on UI state patterns and text input.<br><br>• Low complexity<br>• Material Design 3 theme and Material You dynamic color<br>• Resource loading<br>• Back button handling<br>• Integration with Architecture Components: Navigation, Fragments, LiveData, ViewModel<br>• Animation<br>• UI Testing<br><br>**[> Browse](Jetchat/)** <br><br> | <img src="readme/screenshots/Jetchat.png" width="320" alt="Jetchat sample demo">|
-|  |  |
-| <br><img src="readme/jetsnack.png" alt="Jetsnack" width="240"></img> <br><br>Jetsnack is a sample snack ordering app built with Compose.<br><br>• Medium complexity<br>• Custom design system<br>• Custom layouts<br>• Animation<br><br>**[> Browse](Jetsnack/)** <br><br>  | <img src="readme/screenshots/Jetsnack.png" width="320" alt="Jetsnack sample demo">|
-|  |  |
-| <br><img src="readme/jetcaster.png" alt="Jetcaster" width="240"></img> <br><br>A sample podcast app that features a full-featured, Redux-style architecture and showcases dynamic themes.<br><br>• Advanced sample<br>• Dynamic theming using podcast artwork<br>• Image fetching<br>• [`WindowInsets`](https://developer.android.com/reference/kotlin/android/view/WindowInsets) support<br>• Coroutines<br>• Local storage with Room<br><br>**[> Browse](Jetcaster/)** <br><br>  | <img src="readme/screenshots/Jetcaster.png" width="320" alt="Jetcaster sample demo">|
-|  |  |
-| <br><img src="readme/reply.png" alt="Reply" width="240"></img>  <br><br>A compose implementation of the Reply material study, an email client app that focuses on adaptive design for mobile, tablets and foldables. It also showcases brand new Material design 3 theming, dynamic colors and navigation components.<br><br>• Medium complexity<br>• Adaptive UI for phones, tablet and desktops<br>• Foldable support<br>• Material 3 theming & Components<br>• Dynamic colors and Light/Dark theme support<br><br>**[> Browse](Reply/)** <br><br>  | <img src="readme/screenshots/Reply.png" width="320" alt="Reply sample demo">|
-|  |  |
-| <br><img src="readme/jetlagged_heading.png" alt="JetLagged" width="240"></img>  <br><br>A sample sleep tracker app, showcasing how to create custom layouts and graphics in Compose<br><br>• Custom Layouts<br>• Graphs with Paths<br><br>**[> Browse](JetLagged/)** <br><br>  | <img src="JetLagged/screenshots/JetLagged_Full.png" width="320" alt="JetLagged sample demo">|
+**Now in Android** is a fully functional Android app built entirely with Kotlin and Jetpack Compose. It
+follows Android design and development best practices and is intended to be a useful reference
+for developers. As a running app, it's intended to help developers keep up-to-date with the world
+of Android development by providing regular news updates.
 
-🧬 Additional samples
-------------
+The app is currently in development. The `prodRelease` variant is [available on the Play Store](https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid).
 
-| Project | |
-|:-----|---------|
-| <br><img src="readme/nia.png" alt="Now in Android" width="240"></img>  <br><br>An app for keeping up to date with the latest news and developments in Android.<br><br>• [Jetpack Compose](https://developer.android.com/jetpack/compose) first app.<br>• Implements the recommended Android [Architecture Guidelines](https://developer.android.com/topic/architecture) <br>• Integrates [Jetpack Libraries](https://developer.android.com/jetpack) holistically in the context of a real world app<br><br><a href="https://play.google.com/store/apps/details?id=com.google.samples.apps.nowinandroid"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a><br>**[> Browse](https://github.com/android/nowinandroid)** <br><br>  | <img src="readme/screenshots/NiA.png" width="320" alt="Now In Android Github Repository">|
-|  |  |
-| <br><img src="readme/material_catalog.png" alt="Material Catalog" width="240"></img>  <br><br>A catalog of Material Design components and features available in Jetpack Compose. See how to implement them and how they look and behave on real devices.<br><br>• Lives in AOSP—always up to date<br>• Uses the same samples as API reference docs<br>• Theme picker to change Material Theming values at runtime<br>• Links to guidelines, docs, source code, and issue tracker<br><br><a href="https://play.google.com/store/apps/details?id=androidx.compose.material.catalog"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a><br>**[> Browse on AOSP](https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:compose/integration-tests/material-catalog)** <br><br>  | <img src="readme/screenshots/Material_Catalog.png" width="320" alt="Material Catalog sample demo">|
+# Features
 
+**Now in Android** displays content from the
+[Now in Android](https://developer.android.com/series/now-in-android) series. Users can browse for
+links to recent videos, articles and other content. Users can also follow topics they are interested
+in, and be notified when new content is published which matches interests they are following.
 
-## High level features 
+## Screenshots
 
-Looking for a sample that has the following features?
+![Screenshot showing For You screen, Interests screen and Topic detail screen](docs/images/screenshots.png "Screenshot showing For You screen, Interests screen and Topic detail screen")
 
-### Custom Layouts
-* [Jetnews: Interests Screen](https://github.com/android/compose-samples/blob/ee198110d8a7575da281de9bd0f84e91970468ca/JetNews/app/src/main/java/com/example/jetnews/ui/interests/InterestsScreen.kt#L428)
-* [Jetchat: AnimatedFabContent](https://github.com/android/compose-samples/blob/ee198110d8a7575da281de9bd0f84e91970468ca/Jetchat/app/src/main/java/com/example/compose/jetchat/components/AnimatingFabContent.kt#L101)
-* [Jetsnack: Grid](https://github.com/android/compose-samples/blob/73d7f25815e6936e0e815ce975905a6f10744c36/Jetsnack/app/src/main/java/com/example/jetsnack/ui/components/Grid.kt#L27)
-* [Jetsnack: CollapsingImageLayout](https://github.com/android/compose-samples/blob/main/Jetsnack/app/src/main/java/com/example/jetsnack/ui/snackdetail/SnackDetail.kt)
+# Development Environment
 
-### Theming
-* [Jetchat: Material3](https://github.com/android/compose-samples/blob/main/Jetchat/app/src/main/java/com/example/compose/jetchat/theme/Themes.kt#L91)
-* [Jetcaster: Custom theme based on cover art](https://github.com/android/compose-samples/blob/main/Jetcaster/app/src/main/java/com/example/jetcaster/util/DynamicTheming.kt)
-* [Jetsnack: Custom Design System](https://github.com/android/compose-samples/blob/main/Jetsnack/app/src/main/java/com/example/jetsnack/ui/theme/Theme.kt)
+**Now in Android** uses the Gradle build system and can be imported directly into Android Studio (make sure you are using the latest stable version available [here](https://developer.android.com/studio)). 
 
-### Animations
-* [Jetsurvey: AnimatedContent](https://github.com/android/compose-samples/pull/842)
-* [Jetcaster: Animated theme colors](https://github.com/android/compose-samples/blob/69e9d862b5ffb321064364d7883e859db6daeccd/Jetcaster/app/src/main/java/com/example/jetcaster/util/DynamicTheming.kt)
-* [Jetsnack: Animating Bottom Barl](https://github.com/android/compose-samples/blob/main/Jetsnack/app/src/main/java/com/example/jetsnack/ui/home/Home.kt)
+Change the run configuration to `app`.
 
-### Text
-* [Jetchat: Downloadable Fonts](https://github.com/android/compose-samples/pull/787)
+![image](https://user-images.githubusercontent.com/873212/210559920-ef4a40c5-c8e0-478b-bb00-4879a8cf184a.png)
 
-### Large Screens
-* [Jetcaster - Supporting Pane](https://github.com/android/compose-samples/blob/3dbbf0912b57dacefcfb79191a2d7d6b053dadb8/Jetcaster/app/src/main/java/com/example/jetcaster/ui/home/Home.kt#L282)
-* [Jetnews - Window Size Classes](https://github.com/android/compose-samples/blob/69e9d862b5ffb321064364d7883e859db6daeccd/JetNews/app/src/main/java/com/example/jetnews/ui/MainActivity.kt#L36)
+The `demoDebug` and `demoRelease` build variants can be built and run (the `prod` variants use a backend server which is not currently publicly available).
 
-### TV
-* [Jetcaster - TV](https://github.com/android/compose-samples/tree/3dbbf0912b57dacefcfb79191a2d7d6b053dadb8/Jetcaster/tv-app)
+![image](https://user-images.githubusercontent.com/873212/210560507-44045dc5-b6d5-41ca-9746-f0f7acf22f8e.png)
 
-### Wear
-* [Jetcaster - Wear](https://github.com/android/compose-samples/tree/3dbbf0912b57dacefcfb79191a2d7d6b053dadb8/Jetcaster/wear)
+Once you're up and running, you can refer to the learning journeys below to get a better
+understanding of which libraries and tools are being used, the reasoning behind the approaches to
+UI, testing, architecture and more, and how all of these different pieces of the project fit
+together to create a complete app.
 
-## Formatting
+# Architecture
 
-To automatically format all samples: Run `./scripts/format.sh`
-To check one sample for errors: Navigate to the sample folder and run `./gradlew spotlessCheck`
-To format one sample: Navigate to the sample folder and run `./gradlew spotlessApply`
+The **Now in Android** app follows the
+[official architecture guidance](https://developer.android.com/topic/architecture) 
+and is described in detail in the
+[architecture learning journey](docs/ArchitectureLearningJourney.md).
 
-## Updates
+# Modularization
 
-To update dependencies to their new stable versions, run:
+The **Now in Android** app has been fully modularized and you can find the detailed guidance and
+description of the modularization strategy used in
+[modularization learning journey](docs/ModularizationLearningJourney.md).
 
+# Build
+
+The app contains the usual `debug` and `release` build variants. 
+
+In addition, the `benchmark` variant of `app` is used to test startup performance and generate a
+baseline profile (see below for more information).
+
+`app-nia-catalog` is a standalone app that displays the list of components that are stylized for
+**Now in Android**.
+
+The app also uses
+[product flavors](https://developer.android.com/studio/build/build-variants#product-flavors) to
+control where content for the app should be loaded from.
+
+The `demo` flavor uses static local data to allow immediate building and exploring of the UI.
+
+The `prod` flavor makes real network calls to a backend server, providing up-to-date content. At 
+this time, there is not a public backend available.
+
+For normal development use the `demoDebug` variant. For UI performance testing use the
+`demoRelease` variant. 
+
+# Testing
+
+To facilitate testing of components, **Now in Android** uses dependency injection with
+[Hilt](https://developer.android.com/training/dependency-injection/hilt-android).
+
+Most data layer components are defined as interfaces.
+Then, concrete implementations (with various dependencies) are bound to provide those interfaces to
+other components in the app.
+In tests, **Now in Android** notably does _not_ use any mocking libraries.
+Instead, the production implementations can be replaced with test doubles using Hilt's testing APIs
+(or via manual constructor injection for `ViewModel` tests).
+
+These test doubles implement the same interface as the production implementations and generally
+provide a simplified (but still realistic) implementation with additional testing hooks.
+This results in less brittle tests that may exercise more production code, instead of just verifying
+specific calls against mocks.
+
+Examples:
+- In instrumentation tests, a temporary folder is used to store the user's preferences, which is
+  wiped after each test.
+  This allows using the real `DataStore` and exercising all related code, instead of mocking the 
+  flow of data updates.
+
+- There are `Test` implementations of each repository, which implement the normal, full repository
+  interface and also provide test-only hooks.
+  `ViewModel` tests use these `Test` repositories, and thus can use the test-only hooks to
+  manipulate the state of the `Test` repository and verify the resulting behavior, instead of
+  checking that specific repository methods were called.
+
+To run the tests execute the following gradle tasks: 
+
+- `testDemoDebug` run all local tests against the `demoDebug` variant. Screenshot tests will fail
+(see below for explanation). To avoid this, run `recordRoborazziDemoDebug` prior to running unit tests.
+- `connectedDemoDebugAndroidTest` run all instrumented tests against the `demoDebug` variant. 
+
+> [!NOTE]
+> You should not run `./gradlew test` or `./gradlew connectedAndroidTest` as this will execute 
+tests against _all_ build variants which is both unnecessary and will result in failures as only the
+`demoDebug` variant is supported. No other variants have any tests (although this might change in future). 
+
+## Screenshot tests
+A screenshot test takes a screenshot of a screen or a UI component within the app, and compares it 
+with a previously recorded screenshot which is known to be rendered correctly. 
+
+For example, Now in Android has [screenshot tests](https://github.com/android/nowinandroid/blob/main/app/src/testDemo/kotlin/com/google/samples/apps/nowinandroid/ui/NiaAppScreenSizesScreenshotTests.kt)
+to verify that the navigation is displayed correctly on different screen sizes 
+([known correct screenshots](https://github.com/android/nowinandroid/tree/main/app/src/testDemo/screenshots)). 
+
+Now In Android uses [Roborazzi](https://github.com/takahirom/roborazzi) to run screenshot tests
+of certain screens and UI components. When working with screenshot tests the following gradle tasks are useful:
+
+- `verifyRoborazziDemoDebug` run all screenshot tests, verifying the screenshots against the known
+correct screenshots.
+- `recordRoborazziDemoDebug` record new "known correct" screenshots. Use this command when you have
+made changes to the UI and manually verified that they are rendered correctly. Screenshots will be
+stored in `modulename/src/test/screenshots`.
+- `compareRoborazziDemoDebug` create comparison images between failed tests and the known correct
+images. These can also be found in `modulename/src/test/screenshots`. 
+
+> [!NOTE]
+> **Note on failing screenshot tests**   
+> The known correct screenshots stored in this repository are recorded on CI using Linux. Other
+platforms may (and probably will) generate slightly different images, making the screenshot tests fail. 
+When working on a non-Linux platform, a workaround to this is to run `recordRoborazziDemoDebug` on the
+`main` branch before starting work. After making changes, `verifyRoborazziDemoDebug` will identify only
+legitimate changes. 
+
+For more information about screenshot testing 
+[check out this talk](https://www.droidcon.com/2023/11/15/easy-screenshot-testing-with-compose/).
+
+# UI
+The app was designed using [Material 3 guidelines](https://m3.material.io/). Learn more about the design process and 
+obtain the design files in the [Now in Android Material 3 Case Study](https://goo.gle/nia-figma) (design assets [also available as a PDF](docs/Now-In-Android-Design-File.pdf)).
+
+The Screens and UI elements are built entirely using [Jetpack Compose](https://developer.android.com/jetpack/compose). 
+
+The app has two themes: 
+
+- Dynamic color - uses colors based on the [user's current color theme](https://material.io/blog/announcing-material-you) (if supported)
+- Default theme - uses predefined colors when dynamic color is not supported
+
+Each theme also supports dark mode. 
+
+The app uses adaptive layouts to
+[support different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes).
+
+Find out more about the [UI architecture here](docs/ArchitectureLearningJourney.md#ui-layer).
+
+# Performance
+
+## Benchmarks
+
+Find all tests written using [`Macrobenchmark`](https://developer.android.com/topic/performance/benchmarking/macrobenchmark-overview)
+in the `benchmarks` module. This module also contains the test to generate the Baseline profile.
+
+## Baseline profiles
+
+The baseline profile for this app is located at [`app/src/main/baseline-prof.txt`](app/src/main/baseline-prof.txt).
+It contains rules that enable AOT compilation of the critical user path taken during app launch.
+For more information on baseline profiles, read [this document](https://developer.android.com/studio/profile/baselineprofiles).
+
+> [!NOTE]
+> The baseline profile needs to be re-generated for release builds that touch code which changes app startup.
+
+To generate the baseline profile, select the `benchmark` build variant and run the
+`BaselineProfileGenerator` benchmark test on an AOSP Android Emulator.
+Then copy the resulting baseline profile from the emulator to [`app/src/main/baseline-prof.txt`](app/src/main/baseline-prof.txt).
+
+## Compose compiler metrics
+
+Run the following command to get and analyse compose compiler metrics:
+
+```bash
+./gradlew assembleRelease -PenableComposeCompilerMetrics=true -PenableComposeCompilerReports=true
 ```
-./scripts/updateDeps.sh
-```
 
-Any other version updates need to be made individually.
+The reports files will be added to [build/compose-reports](build/compose-reports). The metrics files will also be 
+added to [build/compose-metrics](build/compose-metrics).
 
-## Obsolete Sample Projects
+For more information on Compose compiler metrics, see [this blog post](https://medium.com/androiddevelopers/jetpack-compose-stability-explained-79c10db270c8).
 
-Over time some of our samples become a little stale and are removed to keep the
-repository easy to navigate. If you are curious you can still find them in the 
-history, however if you are new you might be better served sticking to
-the most up to date resources.
+# License
 
-| Project                                          | Removed    | Commit                                                              |
-| ------------------------------------------------ | -----------|-------------------------------------------------------------------- |
-| [Crane](../../tree/v2024.05.00/Crane)         | 2024-08-02 | [ee8e272](../../commit/ee8e27289f4bc36304ee9f04397f49c35f402a65) |
-| [Owl](../../tree/v2024.05.00/Owl)             | 2024-08-02 | [ee8e272](../../commit/ee8e27289f4bc36304ee9f04397f49c35f402a65) |
-| [Jetsurvey](../../tree/v2024.05.00/Jetsurvey) | 2024-08-02 | [ee8e272](../../commit/ee8e27289f4bc36304ee9f04397f49c35f402a65) |
-| [Rally](../../tree/v2024.05.00/Rally)         | 2024-08-02 | [ee8e272](../../commit/ee8e27289f4bc36304ee9f04397f49c35f402a65) |
-
-## License
-```
-Copyright 2024 The Android Open Source Project
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+**Now in Android** is distributed under the terms of the Apache License (Version 2.0). See the
+[license](LICENSE) for more information.
